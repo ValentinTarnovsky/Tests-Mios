@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+main {
+    border: 2px solid rgb(67, 67, 67);
+    border-radius: 20px;
+    margin: 3em;
+    background-color: white;
+    box-shadow: 4px 4px 10px inset rgba(0, 0, 0, 0.5), -4px -4px 10px inset rgba(0, 0, 0, 0.5);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.fig {
+    margin: 14em;
+    width: 15em;
+    height: 15em;
+    border: 5px solid black;
+    border-radius: 10px / 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -3px -3px 15px rgba(0, 0, 0, 0.5), 3px 3px 5px black;
+}
+
+.fig img {
+    height: 100%;
+}
+
+.fig img:hover {
+    background-color: rgba(0, 0, 0, 0.223);
+}
